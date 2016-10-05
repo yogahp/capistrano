@@ -82,7 +82,7 @@ describe Capistrano::DSL::Paths do
       end
 
       it "returns the `current_path` value" do
-        expect(subject.to_s).to eq "/var/www/current"
+        expect(subject.to_s).to eq "/var/www/webapp"
       end
     end
 
